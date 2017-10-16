@@ -20,7 +20,7 @@
     <nav class="navbar navbar-default visible-lg" style="border-radius: unset;">
         <div class="container-fluid">
             <div class="navbar-header">
-                <a class="navbar-brand" href="#">ProjectRD</a>
+                <a class="navbar-brand" href="index.php">ProjectRD</a>
             </div>
             <ul class="nav navbar-nav">
                 <li class="active">
@@ -68,135 +68,117 @@
                                 que guste, una vez escoja los incentivos se descontaran los puntos correspondientes.</p>
                         </div>
                     </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading ">
-                            <h4 class="panel-title text-center titulos">
-                                <a class="ahover" data-toggle="collapse" data-parent="#accordion" href="#collapse2">
-                                    ¿En que me Beneficia?</a>
-                            </h4>
-                        </div>
-                        <div id="collapse2" class="panel-collapse collapse">
-                            <div class="panel-body" style="text-align: justify;">
-                                <p>Al inscribirse en el P.R.D. podra conocer en tiempo real el costo de la energía eléctrica y además
-                                    podra participar en incentivos a fin de mes.</p>
-                                ¿Cómo puedo reclamar los incentivos?
-                                <p>Es facil, deacuerdo a los puntos que tenga acumulados en la plataforma, podra escoger los incentivo
-                                    que guste, una vez escoja los incentivos se descontaran los puntos correspondientes.</p>
-                            </div>
-                        </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading ">
+                        <h4 class="panel-title text-center titulos">
+                            <a class="ahover" data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+                                Quiero Participar</a>
+                        </h4>
                     </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading ">
-                            <h4 class="panel-title text-center titulos">
-                                <a class="ahover" data-toggle="collapse" data-parent="#accordion" href="#collapse3">
-                                    Quiero Participar</a>
-                            </h4>
-                        </div>
-                        <div id="collapse3" class="panel-collapse collapse">
-                            <div class="panel-body">
-                                <form class="form-signin" action="#" method="POST">
-                                    <span id="reauth-email" class="reauth-email"></span>
-                                    <div class="input-group">
-                                        <span class="input-group-addon">
-                                            <i class="glyphicon glyphicon-envelope"></i>
-                                        </span>
-                                        <input id="email" type="text" class="form-control" name="email" placeholder="Correo">
-                                    </div>
-                                    <p></p>
-                                    <div class="input-group">
-                                        <span class="input-group-addon">
-                                            <i class="glyphicon glyphicon-lock"></i>
-                                        </span>
-                                        <input id="password" type="password" class="form-control" name="password" placeholder="Contraseña">
-                                    </div>
-                                    <div id="remember" class="checkbox">
-                                        <label>
-                                            <input type="checkbox" value="terminosyc"> Acepto los términos y condiciones.
-                                        </label>
-                                    </div>
-                                    <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Registrar</button>
-                                </form>
-                                <!-- /form -->
-                                <a href="#" class="forgot-password">
-                                    <p></p>
-                                    <span data-toggle="modal" data-target="#terModal">Términos y condiciones.
+                    <div id="collapse3" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <form class="form-signin" action="index.php" method="POST">
+                                <span id="reauth-email" class="reauth-email"></span>
+                                <div class="input-group">
+                                    <span class="input-group-addon">
+                                        <i class="glyphicon glyphicon-envelope"></i>
                                     </span>
-                                </a>
-                            </div>
+                                    <input id="email" type="text" class="form-control" name="email" placeholder="Correo">
+                                </div>
+                                <p></p>
+                                <div class="input-group">
+                                    <span class="input-group-addon">
+                                        <i class="glyphicon glyphicon-lock"></i>
+                                    </span>
+                                    <input id="password" type="password" class="form-control" name="password" placeholder="Contraseña">
+                                </div>
+                                <div id="remember" class="checkbox">
+                                    <label>
+                                        <input type="checkbox" value="terminosyc"> Acepto los términos y condiciones.
+                                    </label>
+                                </div>
+                                <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Registrar</button>
+                            </form>
+                            <!-- /form -->
+                            <a href="#" class="forgot-password">
+                                <p></p>
+                                <span data-toggle="modal" data-target="#terModal">Términos y condiciones.
+                                </span>
+                            </a>
                         </div>
                     </div>
-                    <div class="panel panel-default visible-xs">
-                        <div class="panel-heading ">
-                            <h4 class="panel-title text-center titulos">
-                                <a class="ahover" data-toggle="collapse" data-parent="#accordion" href="#collapse4">
-                                    Ingresar</a>
-                            </h4>
-                        </div>
-                        <div id="collapse4" class="panel-collapse collapse">
-                            <div class="panel-body">
-                                <form class="form-signin" action="#" method="POST">
-                                    <span id="reauth-email" class="reauth-email"></span>
-                                    <div class="input-group">
-                                        <span class="input-group-addon">
-                                            <i class="glyphicon glyphicon-envelope"></i>
-                                        </span>
-                                        <input id="email" type="text" class="form-control" name="email" placeholder="Correo">
-                                    </div>
-                                    <p></p>
-                                    <div class="input-group">
-                                        <span class="input-group-addon">
-                                            <i class="glyphicon glyphicon-lock"></i>
-                                        </span>
-                                        <input id="password" type="password" class="form-control" name="password" placeholder="Contraseña">
-                                    </div>
-                                    <div id="remember" class="checkbox">
-                                        <label>
-                                            <input type="checkbox" value="remember-me"> Recordar
-                                        </label>
-                                    </div>
-                                    <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Entrar</button>
-                                </form>
-                                <!-- /form -->
-                                <a href="#" class="forgot-password">
-                                    recuperar contraseña?
-                                </a>
-                            </div>
+                </div>
+                <div class="panel panel-default visible-xs">
+                    <div class="panel-heading ">
+                        <h4 class="panel-title text-center titulos">
+                            <a class="ahover" data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+                                Ingresar</a>
+                        </h4>
+                    </div>
+                    <div id="collapse4" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <form class="form-signin" action="index.php" method="POST">
+                                <span id="reauth-email" class="reauth-email"></span>
+                                <div class="input-group">
+                                    <span class="input-group-addon">
+                                        <i class="glyphicon glyphicon-envelope"></i>
+                                    </span>
+                                    <input id="email" type="text" class="form-control" name="email" placeholder="Correo">
+                                </div>
+                                <p></p>
+                                <div class="input-group">
+                                    <span class="input-group-addon">
+                                        <i class="glyphicon glyphicon-lock"></i>
+                                    </span>
+                                    <input id="password" type="password" class="form-control" name="password" placeholder="Contraseña">
+                                </div>
+                                <div id="remember" class="checkbox">
+                                    <label>
+                                        <input type="checkbox" value="remember-me"> Recordar
+                                    </label>
+                                </div>
+                                <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Entrar</button>
+                            </form>
+                            <!-- /form -->
+                            <a href="#" class="forgot-password">
+                                recuperar contraseña?
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="container-fluid panel-body col-sm-4 visible-lg visible-md login">
-                <div class="card card-container">
-                    <img id="profile-img" class="profile-img-card" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png" />
-                    <p id="profile-name" class="profile-name-card"></p>
-                    <form class="form-signin" action="#" method="POST">
-                        <span id="reauth-email" class="reauth-email"></span>
-                        <div class="input-group">
-                            <span class="input-group-addon">
-                                <i class="glyphicon glyphicon-envelope"></i>
-                            </span>
-                            <input id="email" type="text" class="form-control" name="email" placeholder="Correo">
-                        </div>
-                        <p></p>
-                        <div class="input-group">
-                            <span class="input-group-addon">
-                                <i class="glyphicon glyphicon-lock"></i>
-                            </span>
-                            <input id="password" type="password" class="form-control" name="password" placeholder="Contraseña">
-                        </div>
-                        <div id="remember" class="checkbox">
-                            <label>
-                                <input type="checkbox" value="remember-me"> Recordar
-                            </label>
-                        </div>
-                        <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Entrar</button>
-                    </form>
-                    <!-- /form -->
-                    <a href="#" class="forgot-password">
-                        recuperar contraseña?
-                    </a>
-                </div>
-                <!-- /card-container -->
+        </div>
+        <div class="container-fluid panel-body col-sm-4 visible-lg visible-md login">
+            <div class="card card-container">
+                <img id="profile-img" class="profile-img-card" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png" />
+                <p id="profile-name" class="profile-name-card"></p>
+                <form class="form-signin" action="index.php" method="POST">
+                    <span id="reauth-email" class="reauth-email"></span>
+                    <div class="input-group">
+                        <span class="input-group-addon">
+                            <i class="glyphicon glyphicon-envelope"></i>
+                        </span>
+                        <input id="email" type="text" class="form-control" name="email" placeholder="Correo">
+                    </div>
+                    <p></p>
+                    <div class="input-group">
+                        <span class="input-group-addon">
+                            <i class="glyphicon glyphicon-lock"></i>
+                        </span>
+                        <input id="password" type="password" class="form-control" name="password" placeholder="Contraseña">
+                    </div>
+                    <div id="remember" class="checkbox">
+                        <label>
+                            <input type="checkbox" value="remember-me"> Recordar
+                        </label>
+                    </div>
+                    <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Entrar</button>
+                </form>
+                <!-- /form -->
+                <a href="#" class="forgot-password">
+                    recuperar contraseña?
+                </a>
             </div>
             <!-- /card-container -->
         </div>
@@ -225,5 +207,7 @@
                 </div>
             </div>
         </div>
-    </body>
+    </div>
+</body>
+
 </html>
