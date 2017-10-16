@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css?family=Boogaloo');
+@import url('https://fonts.googleapis.com/css?family=Viga');
+a:link {
+    text-decoration: none;
+}
+
+body {
+    background-image: url(../img/f7.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+    /*font-family: 'Boogaloo', cursive;*/
+    font-family: 'Viga', sans-serif;
+    padding-bottom: 30px;
+}
+
+.navs {
+    -webkit-box-shadow: 0px 7px 6px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 7px 6px -4px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 7px 6px -4px rgba(0, 0, 0, 0.75);
+}
+
+.headbox {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding-top: 0.5px;
+    padding-bottom: 5px;
+    color: white;
+}
+
+.login {
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-top: 2%;
+    padding-bottom: 0px;
+    z-index: 1;
+}
+
+.titulos {
+    vertical-align: middle;
+    color: rgb(3, 83, 174);
+}
+
+.titleb {
+    text-align: center;
+}
+
+.items {
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-top: 2%;
+    padding-bottom: 0px;
+    z-index: 0;
+}
+
+.card-container.card {
+    max-width: 350px;
+    padding: 40px 40px;
+}
+
+.btn {
+    font-weight: 700;
+    height: 36px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+
+/*
+ * Card component
+ */
+
+.card {
+    background-color: #F7F7F7;
+    /* just in case there no content*/
+    padding: 20px 25px 30px;
+    margin: 0 auto 15px;
+    /* shadows and rounded borders */
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.profile-img-card {
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+/*
+ * Form styles
+ */
+
+.profile-name-card {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0 0;
+    min-height: 1em;
+}
+
+.form-signin .form-control:focus {
+    border-color: rgb(104, 145, 162);
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgb(104, 145, 162);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgb(104, 145, 162);
+}
+
+.btn.btn-signin {
+    /*background-color: #4d90fe; */
+    background-color: rgb(104, 145, 162);
+    /* background-color: linear-gradient(rgb(104, 145, 162), rgb(12, 97, 33));*/
+    padding: 0px;
+    font-weight: 700;
+    font-size: 14px;
+    height: 36px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: none;
+    -o-transition: all 0.218s;
+    -moz-transition: all 0.218s;
+    -webkit-transition: all 0.218s;
+    transition: all 0.218s;
+}
+
+.btn.btn-signin:hover,
+.btn.btn-signin:active,
+.btn.btn-signin:focus {
+    background-color: rgb(12, 97, 33);
+    cursor: pointer;
+}
+
+.forgot-password {
+    color: rgb(104, 145, 162);
+}
+
+.forgot-password:hover,
+.forgot-password:active,
+.forgot-password:focus {
+    color: rgb(12, 97, 33);
+}
+
+/* Large desktop 
+///////////////// PANTALLAS ////////////////*/
+
+@media (min-width: 1200px) {
+    .pr {
+        width: 60%;
+    }
+    .login {
+        width: 40%;
+        float: right;
+    }
+    .items {
+        width: 58%;
+        float: left;
+    }
+    .titleb {
+        font-size: 32px;
+    }
+    .panel:hover {
+        transform: scale(1.05);
+    }
+    .titleb:hover {
+        transform: scale(1.015);
+        color: #80ff80;
+        cursor: default;
+    }
+    .ahover:hover {
+        transform: scale(1.045);
+        color: #004d00;
+    }
+}
+
+/* Portrait tablet to landscape and desktop*/
+
+@media (min-width: 768px) and (max-width: 979px) {
+    .titleb {
+        font-size: 22px;
+    }
+    .titulos {
+        font-size: 18px;
+    }
+    .panel-heading {
+        height: 38px;
+    }
+}
+
+/* Landscape phone to portrait tablet */
+
+@media (max-width: 767px) {
+    .titleb {
+        font-size: 22px;
+    }
+    .titulos {
+        font-size: 18px;
+    }
+    .panel-heading {
+        height: 38px;
+    }
+}
+
+/* Landscape phones and down */
+
+@media (max-width: 480px) {
+    .pr {
+        margin-top: -10px;
+        padding: 5px;
+    }
+    .titleb {
+        font-size: 22px;
+    }
+    .titulos {
+        font-size: 16px;
+    }
+    .panel-heading {
+        height: 38px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    body {
+        background-image: url(../img/f7_tablet.jpg);
+    }
+}
+
+/*///////////////////////////////////*/
