@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Estilo css -->
+    <link rel="stylesheet" href="estilos/estilo_p.css" type='text/css'>
+    <title>Inicio PRD</title>
+</head>
+
+<body class="center-block">
+    <nav class="navbar navbar-default visible-lg" style="border-radius: unset;">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.php">ProjectRD</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active">
+                    <a href="#">Inicio</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="pr center-block">
+        <header>
+            <div class="headbox center-block">
+                <h1 class="titleb center-block">Bienvenido al Programa de Respuesta de la Demanda</h1>
+            </div>
+        </header>
+        <div class="container-fluid panel-body col-sm-8 items">
+            <div class="panel-group" id="accordion">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title text-center titulos">
+                            <a class="ahover" data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                                ¿Qué es el P.R.D?</a>
+                        </h4>
+                    </div>
+                    <div id="collapse1" class="panel-collapse collapse">
+                        <div class="panel-body" style="text-align: justify;">
+                            <p>En mercados de energía eléctrica a nivel mudial se ha implementado este tipo de programas.</p>
+                            <p>Surge como una respuesta a los precios y demanda de energía eléctrica y de esta manera beneficiar a los consumidores
+                                que se integren al programa de respuesta de la demanda.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading ">
+                        <h4 class="panel-title text-center titulos">
+                            <a class="ahover" data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+                                ¿En que me Beneficia?</a>
+                        </h4>
+                    </div>
+                    <div id="collapse2" class="panel-collapse collapse">
+                        <div class="panel-body" style="text-align: justify;">
+                            <p>Al inscribirse en el P.R.D. podra conocer en tiempo real el costo de la energía eléctrica y además podra participar
+                                en incentivos a fin de mes.</p>
+                            ¿Cómo puedo reclamar los incentivos?
+                            <p>Es facil, deacuerdo a los puntos que tenga acumulados en la plataforma, podra escoger los incentivo que guste, una
+                                vez escoja los incentivos se descontaran los puntos correspondientes.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading ">
+                        <h4 class="panel-title text-center titulos">
+                            <a class="ahover" data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+                                Quiero Participar</a>
+                        </h4>
+                    </div>
+                    <div id="collapse3" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <form class="form-signin" action="index.php" method="POST">
+                                <span id="reauth-email" class="reauth-email"></span>
+                                <div class="input-group">
+                                    <span class="input-group-addon">
+                                        <i class="glyphicon glyphicon-envelope"></i>
+                                    </span>
+                                    <input id="email" type="text" class="form-control" name="email" placeholder="Correo">
+                                </div>
+                                <p></p>
+                                <div class="input-group">
+                                    <span class="input-group-addon">
+                                        <i class="glyphicon glyphicon-lock"></i>
+                                    </span>
+                                    <input id="password" type="password" class="form-control" name="password" placeholder="Contraseña">
+                                </div>
+                                <div id="remember" class="checkbox">
+                                    <label>
+                                        <input type="checkbox" value="terminosyc"> Acepto los términos y condiciones.
+                                    </label>
+                                </div>
+                                <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Registrar</button>
+                            </form>
+                            <!-- /form -->
+                            <a href="#" class="forgot-password">
+                                <p></p>
+                                <span data-toggle="modal" data-target="#terModal">Términos y condiciones.
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default visible-xs">
+                    <div class="panel-heading ">
+                        <h4 class="panel-title text-center titulos">
+                            <a class="ahover" data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+                                Ingresar</a>
+                        </h4>
+                    </div>
+                    <div id="collapse4" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <form class="form-signin" action="index.php" method="POST">
+                                <span id="reauth-email" class="reauth-email"></span>
+                                <div class="input-group">
+                                    <span class="input-group-addon">
+                                        <i class="glyphicon glyphicon-envelope"></i>
+                                    </span>
+                                    <input id="email" type="text" class="form-control" name="email" placeholder="Correo">
+                                </div>
+                                <p></p>
+                                <div class="input-group">
+                                    <span class="input-group-addon">
+                                        <i class="glyphicon glyphicon-lock"></i>
+                                    </span>
+                                    <input id="password" type="password" class="form-control" name="password" placeholder="Contraseña">
+                                </div>
+                                <div id="remember" class="checkbox">
+                                    <label>
+                                        <input type="checkbox" value="remember-me"> Recordar
+                                    </label>
+                                </div>
+                                <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Entrar</button>
+                            </form>
+                            <!-- /form -->
+                            <a href="#" class="forgot-password">
+                                recuperar contraseña?
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid panel-body col-sm-4 visible-lg visible-md login">
+            <div class="card card-container">
+                <img id="profile-img" class="profile-img-card" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png" />
+                <p id="profile-name" class="profile-name-card"></p>
+                <form class="form-signin" action="index.php" method="POST">
+                    <span id="reauth-email" class="reauth-email"></span>
+                    <div class="input-group">
+                        <span class="input-group-addon">
+                            <i class="glyphicon glyphicon-envelope"></i>
+                        </span>
+                        <input id="email" type="text" class="form-control" name="email" placeholder="Correo">
+                    </div>
+                    <p></p>
+                    <div class="input-group">
+                        <span class="input-group-addon">
+                            <i class="glyphicon glyphicon-lock"></i>
+                        </span>
+                        <input id="password" type="password" class="form-control" name="password" placeholder="Contraseña">
+                    </div>
+                    <div id="remember" class="checkbox">
+                        <label>
+                            <input type="checkbox" value="remember-me"> Recordar
+                        </label>
+                    </div>
+                    <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Entrar</button>
+                </form>
+                <!-- /form -->
+                <a href="#" class="forgot-password">
+                    recuperar contraseña?
+                </a>
+            </div>
+            <!-- /card-container -->
+        </div>
+        <!-- Modal -->
+        <div id="terModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Términos y Condiciones</h4>
+                    </div>
+                    <div class="modal-body" style="text-align: justify;">
+                        <p>Es requisito necesario para la adquisición de los productos que se ofrecen en este sitio, que lea y acepte los siguientes
+                            Términos y Condiciones que a continuación se redactan. El uso de nuestros servicios así como la compra de nuestros
+                            productos implicará que usted ha leído y aceptado los Términos y Condiciones de Uso en el presente documento. Todas
+                            los productos que son ofrecidos por nuestro sitio web pudieran ser creadas, cobradas, enviadas o presentadas por una
+                            página web tercera y en tal caso estarían sujetas a sus propios Términos y Condiciones. En algunos casos, para adquirir
+                            un producto, será necesario el registro por parte del usuario, con ingreso de datos personales fidedignos y definición
+                            de una contraseña.</p>
+                        <p>El usuario puede elegir y cambiar la clave para su acceso de administración de la cuenta en cualquier momento, en caso
+                            de que se haya registrado y que sea necesario para la compra de alguno de nuestros productos. ProjectRD no asume la
+                            responsabilidad en caso de que entregue dicha clave a terceros.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
